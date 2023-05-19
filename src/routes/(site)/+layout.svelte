@@ -5,7 +5,7 @@
 
 <main>
     <Nav />
-    <slot/>
+    <slot />
     <Footer />
 </main>
 
