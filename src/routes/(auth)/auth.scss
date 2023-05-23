@@ -1,0 +1,24 @@
+@import '../../global.scss';
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+//rgb(123, 145, 145)
+.auth_box {
+	background-color: $tertiary-color;
+	padding: 20px;
+	min-width: 300px;
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	justify-content: center;
+}
+
+.oauth {
+	align-items: center;
+	justify-content: center;
+}

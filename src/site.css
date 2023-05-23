@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(76, 76, 76);
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  display: flexbox;
+  justify-content: center;
+}
+
+header {
+  padding: 10px;
+  margin: 10px 0px;
+  background-color: rgb(99, 188, 188);
+  color: black;
+}
+header a {
+  color: green;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: rgb(99, 188, 188);
+}
+.btn:hover {
+  background-color: #63bc90;
+}
+
+nav {
+  background-color: lightblue;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+nav div {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+nav a {
+  color: black;
+  padding: 10px;
+}
+nav a:hover {
+  background-color: #adbce6;
+}
+
+footer {
+  padding-top: 20px;
+  height: 200px;
+  background-color: lightblue;
+  color: black;
+}
+footer a {
+  color: black;
+}/*# sourceMappingURL=site.css.map */

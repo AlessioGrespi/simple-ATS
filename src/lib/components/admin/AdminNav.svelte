@@ -1,3 +1,8 @@
+<script lang="ts">
+    import '../../../site.css';
+    import '../../../global.css';
+</script>
+
 <header>
     Site:
     <a href="/">Home</a>
@@ -21,9 +26,3 @@
     <a href="/app/applicant/settings">settings</a>
 </header>
 
-<style>
-    header {
-        background-color: rgb(59, 59, 59);
-        padding: 10px;
-    }
-</style>

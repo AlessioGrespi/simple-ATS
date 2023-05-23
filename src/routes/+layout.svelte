@@ -1,8 +1,6 @@
 <script>
-import '../app.css'
-	import AdminNav from "$lib/components/admin/AdminNav.svelte";
-
+	import AdminNav from '$lib/components/admin/AdminNav.svelte';
 </script>
 
 <AdminNav />
-<slot/>
+<slot />

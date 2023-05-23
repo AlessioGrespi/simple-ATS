@@ -1,0 +1,61 @@
+
+
+body {
+	background-color: $primary-color;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	display: flexbox;
+	justify-content: center;
+	//align-items: center;
+}
+
+header {
+	padding: 10px;
+	margin: 10px 0px;
+	background-color: $tertiary-color;
+	color: black;
+	a {
+		color: $text-higlight-color;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn {
+	background-color: $tertiary-color;
+	&:hover {
+		background-color: adjust-hue($tertiary-color, $degrees: -30);
+	}
+}
+
+nav {
+	background-color: $secondary-color;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	div {
+		display: flex;
+		justify-content: space-between;
+		width: 20%;
+	}
+	a {
+		color: black;
+		padding: 10px;
+		&:hover {
+			background-color: adjust-hue($secondary-color, $degrees: 30);
+		}
+	}
+}
+
+footer {
+	padding-top: 20px;
+	height: 200px;
+	background-color: $secondary-color;
+	color: black;
+	a {
+		color: black;
+	}
+}
