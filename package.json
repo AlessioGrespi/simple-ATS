@@ -22,6 +22,7 @@
 		"eslint-plugin-svelte": "^2.26.0",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.8.1",
+		"prisma": "4.x",
 		"svelte": "^3.54.0",
 		"svelte-check": "^3.0.1",
 		"svelte-inspector": "^0.0.3",
@@ -31,6 +32,11 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"sass": "^1.62.1"
+		"sass": "^1.62.1",
+		"@lucia-auth/adapter-prisma": "latest",
+		"@lucia-auth/oauth": "latest",
+		"@prisma/client": "~4.7.0",
+		"devalue": "^4.0.1",
+		"lucia-auth": "latest"
 	}
 }
