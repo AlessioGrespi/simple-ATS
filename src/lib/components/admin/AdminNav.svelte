@@ -1,6 +1,14 @@
 <script lang="ts">
     import '../../../site.css';
     import '../../../global.css';
+
+
+
+	import { enhance } from '$app/forms';
+	//import type { PageData } from './$types';
+	//export let data: PageData;
+
+
 </script>
 
 <header>
@@ -13,6 +21,9 @@
     Auth:
     <a href="/login">Login</a>
     <a href="/signup">Signup</a>
+    <form use:enhance method="post" action="/signout">
+        <input type="submit" class="button" value="Sign out" />
+    </form>
     Employer:
     <a href="/app/employer/">dashboard</a>
     <a href="/app/employer/company">company</a>

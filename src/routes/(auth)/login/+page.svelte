@@ -3,11 +3,10 @@
 
 	import { enhance } from '$app/forms';
 
-	export let form: { message?: string };
+	//export let form: { message?: string };
 </script>
 
 <h2>Login</h2>
-
 
 <!-- <form>
 	<Emailpassword />
@@ -15,19 +14,16 @@
 </form>
  -->
 
- <form
-	method="post"
-	use:enhance
->
+<form method="post" use:enhance>
 	<label for="username">username</label><br />
 	<input id="username" name="username" /><br />
 	<label for="password">password</label><br />
 	<input type="password" id="password" name="password" /><br />
 	<input type="submit" value="Continue" class="button" />
 </form>
-{#if form?.message}
+<!-- {#if form?.message}
 	<p class="error">{form.message || ''}</p>
-{/if}
+{/if} -->
 
 <p>Login with:</p>
 <button>LinkedIn</button>
